@@ -1,0 +1,36 @@
+{
+    "description": "Actual Q1 2026 observed macro values for Iran war calibration case",
+    "event": "Iran war onset and Strait of Hormuz closure",
+    "event_date": "2026-02-28",
+    "data_as_of": "2026-03-31",
+    "source": "Morningstar Markets Observer Q2 2026",
+  
+    "observed_values": {
+      "brent_crude_usd": 118.0,
+      "brent_crude_historical_percentile": 78,
+      "energy_sector_q1_return_pct": 37.7,
+      "consumer_cyclical_q1_return_pct": -9.0,
+      "financial_services_q1_return_pct": -9.0,
+      "technology_q1_return_pct": -9.0,
+      "ust_5yr_yield_pct": 3.92,
+      "ust_10yr_yield_pct": 4.30,
+      "ust_30yr_yield_pct": 4.88,
+      "em_bonds_performance": "worst performing fixed income segment Q1 2026",
+      "fed_rate_cuts_priced_2026_pre_war_bps": 50,
+      "fed_rate_cuts_priced_2026_post_war_bps": 0,
+      "private_credit_ccc_below_pct": 19.8,
+      "downgrade_upgrade_ratio": "above 3x for several consecutive quarters",
+      "commodities_12m_return_pct": 32.0
+    },
+  
+    "portfolio_impact_observed": {
+      "equities_impact": "negative - Asia equity selloff consistent with historical risk-off patterns",
+      "fixed_income_impact": "negative - yield curve steepening hurt duration exposure",
+      "alternatives_impact": "mixed - commodity-linked alternatives positive, PE marks under pressure",
+      "structured_products_impact": "negative - credit spread widening compressed structured product values",
+      "private_credit_impact": "negative - CCC cohort stress accelerating, downgrade ratio elevated",
+      "cash_impact": "neutral to positive - safe haven demand supported money market rates"
+    },
+  
+    "calibration_use": "Compare modeled distribution outputs from scenario_stress_model.py against these observed values to validate that actual outcomes fell within the modeled probability distribution. Document findings in outputs/calibration_report.md."
+  }
