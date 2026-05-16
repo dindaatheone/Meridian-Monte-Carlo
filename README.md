@@ -47,6 +47,7 @@ demonstration.
 
 ## Repo Architecture
 
+```
 Meridian-Monte-Carlo/
 |
 |-- 00_framework/                      <- Methodology decisions before any model is built
@@ -85,9 +86,10 @@ Meridian-Monte-Carlo/
 |   +-- integration_map.md             <- Explicit output to downstream repo mapping
 |
 +-- docs/
-|-- methodology.md                 <- Complete methodology documentation
-|-- assumptions.md                 <- All model assumptions documented explicitly
-+-- CHANGELOG.md                   <- Version history
+    |-- methodology.md                 <- Complete methodology documentation
+    |-- assumptions.md                 <- All model assumptions documented explicitly
+    +-- CHANGELOG.md                   <- Version history
+```
 
 ---
 
