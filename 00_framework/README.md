@@ -20,7 +20,7 @@ methodology is not institutional work - it is a script.
 
 Why these three methods and not others?
 
-Monte Carlo simulation is not one method. It is a family
+Monte Carlo simulation is a family
 of approaches with meaningfully different properties.
 Latin Hypercube Sampling, pure random sampling, Quasi
 Monte Carlo, MCMC, scenario-based simulation, and
