@@ -1,0 +1,74 @@
+{
+    "description": "Synthetic Series A venture target assumptions for Meridian Ventures LHS valuation model",
+    "target_name": "Synthetic Target - Asia Pacific Fintech Series A",
+    "jurisdiction": "Singapore",
+    "sector": "Wealthtech Infrastructure",
+    "valuation_date": "2026-01-01",
+  
+    "base_metrics": {
+      "current_revenue_usd": 2500000,
+      "current_ebitda_margin": -0.15,
+      "current_debt_usd": 500000,
+      "cash_usd": 800000,
+      "shares_outstanding": 10000000
+    },
+  
+    "simulation_parameters": {
+      "n_iterations": 10000,
+      "projection_years": 5,
+      "random_seed": 42
+    },
+  
+    "input_distributions": {
+      "revenue_growth_year1": {
+        "distribution": "triangular",
+        "min": 0.40,
+        "mode": 0.75,
+        "max": 1.50,
+        "description": "Year 1 revenue growth rate - wide range reflecting early stage uncertainty"
+      },
+      "revenue_growth_years2to5": {
+        "distribution": "normal",
+        "mean": 0.55,
+        "std": 0.20,
+        "min_clip": 0.10,
+        "max_clip": 1.20,
+        "description": "Years 2 to 5 annual revenue growth - normalizing as execution evidence builds"
+      },
+      "ebitda_margin_terminal": {
+        "distribution": "normal",
+        "mean": 0.22,
+        "std": 0.08,
+        "min_clip": 0.05,
+        "max_clip": 0.45,
+        "description": "Terminal EBITDA margin at year 5 - Asia Pacific wealthtech benchmark"
+      },
+      "exit_multiple_ebitda": {
+        "distribution": "triangular",
+        "min": 8.0,
+        "mode": 14.0,
+        "max": 25.0,
+        "description": "Exit EV/EBITDA multiple - range reflects comparable Asia Pacific fintech transactions"
+      },
+      "wacc": {
+        "distribution": "normal",
+        "mean": 0.18,
+        "std": 0.03,
+        "min_clip": 0.12,
+        "max_clip": 0.28,
+        "description": "Weighted average cost of capital - elevated for Series A illiquidity and Asia Pacific risk premium"
+      }
+    },
+  
+    "option_value_parameters": {
+      "series_b_probability": 0.65,
+      "series_b_option_value_usd": 3500000,
+      "description": "Compound option value of Series A investment buying right to participate at Series B"
+    },
+  
+    "ic_thresholds": {
+      "minimum_p10_usd": 8000000,
+      "target_p50_usd": 18000000,
+      "description": "IC decision thresholds - P10 must clear minimum to proceed, P50 is base case target"
+    }
+  }
