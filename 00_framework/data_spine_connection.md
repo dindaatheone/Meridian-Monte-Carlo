@@ -2,8 +2,7 @@
 
 ## Overview
 
-This repo does not generate its own client or portfolio
-data. It draws from the immutable client entity schema
+This repo draws from the immutable client entity schema
 defined in Meridian-Business-Intelligence. This document
 maps exactly which fields from that schema feed which
 models in this repo.
