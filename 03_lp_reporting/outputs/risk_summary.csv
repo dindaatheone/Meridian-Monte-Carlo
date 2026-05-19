@@ -1,0 +1,11 @@
+metric,value_pct,interpretation
+VaR 95% Monthly,-3.905,1-in-20 monthly loss threshold
+VaR 99% Monthly,-6.33,1-in-100 monthly loss threshold
+CVaR 95% Monthly,-5.404,Expected loss when VaR 95% is breached
+CVaR 99% Monthly,-6.796,Expected loss when VaR 99% is breached
+VaR 95% Annual,-8.858,Annual loss not exceeded 19 years in 20
+VaR 99% Annual,-14.902,Annual loss not exceeded 99 years in 100
+CVaR 95% Annual,-12.457,Expected annual loss in worst 5% of years
+Max Drawdown P50 (36m),-9.283,Typical peak-to-trough over 36 months
+Max Drawdown P90 (36m),-5.304,Severe peak-to-trough over 36 months
+Hurdle Rate 8% Probability,37.0,Probability of meeting 8% annual hurdle
