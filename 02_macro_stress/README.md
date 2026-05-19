@@ -43,7 +43,7 @@ file records actual observed values from Q1 2026. The
 calibration_report.md documents whether the modeled
 distribution covered the actual outcome.
 
-This is not retrospective prediction. It is institutional
+This is institutional
 validation: demonstrating that the methodology was
 correctly specified before the event occurred and that
 the actual outcome fell within the modeled distribution.
