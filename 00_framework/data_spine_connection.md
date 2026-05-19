@@ -30,8 +30,7 @@ models in this repo.
 
 ## LHS Valuation Connection
 
-The LHS valuation model in 01_lhs_valuation does not
-draw directly from the BI client schema. It draws from
+The LHS valuation model in 01_lhs_valuation draws from
 venture_assumptions.json, which is parameterized using
 comparable transaction data from the Asia-Pacific
 Series A and B market. The connection to the BI repo
