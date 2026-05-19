@@ -1,6 +1,6 @@
 # Acknowledgments
 
-**Peter Cockcroft, FRGS** — ASEAN Energy Geopolitics & Risk Advisor
+**Peter Cockcroft, FRGS** ASEAN Energy Geopolitics & Risk Advisor
 The distinction between price volatility and tanker delivery disruption
 that shaped the Hormuz transmission structure in 02_macro_stress/.
 Tanker delivery disruption is tracked as a separate output variable
