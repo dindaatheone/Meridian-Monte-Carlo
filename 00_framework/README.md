@@ -3,7 +3,7 @@
 Methodology decisions made before any model is built.
 Every Monte Carlo implementation choice is documented
 here with its rationale. A model without documented
-methodology is not institutional work - it is a script.
+methodology is not institutional work.
 
 ---
 
