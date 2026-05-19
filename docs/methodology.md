@@ -28,8 +28,7 @@ actually use.
 
 ## Method Selection Framework
 
-The choice of Monte Carlo method is not arbitrary.
-Each method has statistical properties that make it
+The choice of Monte Carlo method has statistical properties that make it
 more or less suitable for a given analytical task.
 Three questions determine the correct method:
 
