@@ -37,8 +37,7 @@ committee asks at every quarterly review:
 ## Why Historical Simulation
 
 Historical simulation uses actual return sequences rather
-than assumed distributions. No parametric assumptions
-to defend. No distribution fitting to challenge. The model
+than assumed distributions. The model
 says: here is what happened in the past, here is the range
 of outcomes that history implies for the future.
 
