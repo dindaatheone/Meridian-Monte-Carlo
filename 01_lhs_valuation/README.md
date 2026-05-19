@@ -23,8 +23,7 @@ margin trajectory, exit multiple, discount rate - and
 generates a full probability distribution of enterprise
 values for a synthetic Series A venture target.
 
-The output is not a single point estimate. It is a
-distribution that shows the full range of plausible
+The output is a distribution that shows the full range of plausible
 outcomes given the input uncertainty. The investment
 committee uses the P10, P50, and P90 values as the
 downside, base, and upside cases in the deal memo.
