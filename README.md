@@ -11,12 +11,11 @@ Meridian Private Bank. It contains three Monte Carlo models,
 each selected for a specific analytical task, each justified
 by the nature of the decision it serves.
 
-This is not a generic simulation exercise. Every methodological
-choice here, from Latin Hypercube Sampling for venture valuation
-to Historical Simulation for LP reporting, is grounded in the
-specific characteristics of Asia-Pacific private banking assets
-and the institutional requirements of the audiences receiving
-the outputs.
+Every methodological choice here, from Latin Hypercube Sampling
+for venture valuation to Historical Simulation for LP reporting,
+is grounded in the specific characteristics of Asia-Pacific
+private banking assets and the institutional requirements of
+the audiences receiving the outputs.
 
 ---
 
@@ -32,16 +31,19 @@ the outputs.
 
 ## The Iran War Calibration Case
 
-The Strait of Hormuz closure of Q1 2026 is the live validation
-of the scenario-based macro stress methodology. This repo does
-not treat that event as its structural thesis. It treats it as
-evidence that probabilistic scenario modeling outperforms
-point-estimate forecasting in institutional decision-making.
+The Strait of Hormuz closure of Q1 2026 is used as an
+out-of-sample stress comparison for the scenario-based
+macro stress methodology. The model inputs were parameterized
+using historical conflict precedents before the event.
+The calibration report documents how the modeled distribution
+compares to what actually occurred.
 
-The calibration report in 02_macro_stress/outputs/ documents
-what the model indicated before Q1 2026 and compares it to
-what occurred. That comparison is the institutional credibility
-demonstration.
+This is a calibration example, not a claim that one event
+validates the methodology. The event is used because it is
+recent, publicly documented, and directly relevant to the
+model's primary stochastic variable.
+
+The calibration report is in 02_macro_stress/outputs/.
 
 ---
 
@@ -66,11 +68,11 @@ Meridian-Monte-Carlo/
 |   |-- scenario_stress_model.py       <- Correlated input Monte Carlo engine
 |   |-- inputs/
 |   |   |-- correlation_matrix.json    <- Historical correlations across macro variables
-|   |   +-- iran_war_calibration.json  <- Actual Q1 2026 observed values for validation
+|   |   +-- iran_war_calibration.json  <- Actual Q1 2026 observed values for comparison
 |   +-- outputs/
 |       |-- stress_distribution.png    <- Full outcome distribution with scenario anchors
 |       |-- portfolio_impact.csv       <- AUM impact by asset class and jurisdiction
-|       +-- calibration_report.md      <- Model prediction vs actual Q1 2026 outcome
+|       +-- calibration_report.md      <- Model distribution vs actual Q1 2026 outcome
 |
 |-- 03_lp_reporting/                   <- Historical Simulation LP risk model
 |   |-- historical_simulation_model.py <- Historical simulation engine
@@ -131,8 +133,8 @@ All outputs saved to respective outputs/ folders.
 
 ## Part of Meridian Private Bank
 
-This repo is a portfolio artifact demonstrating founder-level
-quantitative risk thinking in private banking.
+This repo is a portfolio project demonstrating quantitative
+risk modeling applied to private banking infrastructure.
 
 **Singapore MAS Jurisdiction | Asia-Pacific Focus | Version 1.0**
 All data synthetic. Not a licensed institution.
