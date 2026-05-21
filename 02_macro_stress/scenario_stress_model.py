@@ -284,8 +284,9 @@ Source: {calib['source']}
 ## Observed vs Modeled
 
 ### Brent Crude
-Observed: USD {obs['brent_crude_usd']} (top {100 - obs['brent_crude_historical_percentile']}% of historical observations)
-Modeled P90 change: +{p90_brent:.1f}%
+This serves as an out-of-sample stress comparison, not a claim that one event
+confirms the methodology. The Q1 2026 outcome is one calibration example.
+Model robustness depends on assumption quality and correlation stability across regimes.
 Assessment: Brent at USD 118 represents approximately a 45% to 55% increase from pre-war levels.
 The modeled P90 Brent change of {p90_brent:.1f}% is consistent with this observation.
 
