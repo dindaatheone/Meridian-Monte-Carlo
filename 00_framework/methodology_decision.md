@@ -115,16 +115,24 @@ not three discrete scenarios.
 
 ### The Iran War Calibration Case
 
-The Strait of Hormuz closure of Q1 2026 provides a
-live calibration opportunity. The model inputs are
-parameterized using historical conflict precedents.
+The Strait of Hormuz closure of Q1 2026 is used as
+an out-of-sample stress comparison. The model inputs
+were parameterized using historical conflict precedents.
 The iran_war_calibration.json file records the actual
 observed values from Q1 2026: Brent at USD 118,
 energy sector at plus 37.7%, 10-year UST yield at
-4.30%, EM bond drawdown observed. The calibration
-report documents whether the modeled distribution
-covered the actual outcome. This is institutional
-validation, not retrospective prediction.
+4.30%, EM bond drawdown observed.
+
+The calibration report documents how the modeled
+distribution compares to the actual outcome. This
+is a calibration example - one event against one
+parameterization. It is useful for examining whether
+the model's assumptions produce plausible outputs.
+It is not a claim that a single event confirms the
+methodology. Model robustness depends on assumption
+quality, input calibration, and the stability of
+the correlation structure across regimes - none of
+which are fully resolved by one out-of-sample case.
 
 ### What was rejected and why
 
@@ -152,9 +160,9 @@ Historical simulation uses actual historical return
 sequences as the simulation input rather than assuming
 a parametric distribution such as normal or lognormal.
 The simulation samples from the historical record
-directly, preserving all the statistical properties
+directly, preserving the statistical properties
 of real market behavior including fat tails, skewness,
-and volatility clustering that parametric assumptions
+and return clustering that parametric assumptions
 systematically underestimate.
 
 ### Why historical simulation for LP reporting
